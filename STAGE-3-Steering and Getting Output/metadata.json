@@ -1,0 +1,142 @@
+{
+    "gemma-2-2b": {
+        "LOGIC": {
+            "layers": [
+                "12",
+                "16",
+                "19"
+            ],
+            "12": "layer_12_k32_vopt_aggressive_global",
+            "16": "layer_16_k16_vinit",
+            "19": "layer_19_k25_vinit"
+        },
+        "SENTIMENT": {
+            "layers": [
+                "19",
+                "13"
+            ],
+            "19": "layer_19_k32_vinit",
+            "13": "layer_13_k32_vinit"
+        },
+        "POLITIC": {
+            "layers": [
+                "19",
+                "16",
+                "12"
+            ],
+            "19": "layer_19_k32_vinit",
+            "16": "layer_16_k32_vinit",
+            "12": "layer_12_k32_vinit"
+        },
+        "MORAL": {
+            "layers": [
+                "19",
+                "16",
+                "12"
+            ],
+            "19": "layer_19_k32_vinit",
+            "16": "layer_16_k32_vinit",
+            "12": "layer_12_k32_vinit"
+        }
+    },
+    "gemma-3-4b": {
+        "LOGIC": {
+            "layers": [
+                "9",
+                "29",
+                "17",
+                "22"
+            ],
+            "9": "layer_9_k6_vinit",
+            "29": "layer_29_k3_vinit",
+            "17": "layer_17_k5_vinit",
+            "22": "layer_22_k6_vinit"
+        },
+        "SENTIMENT": {
+            "layers": [
+                "9",
+                "29",
+                "22",
+                "17"
+            ],
+            "9": "layer_9_k32_vinit",
+            "29": "layer_29_k32_vinit",
+            "22": "layer_22_k32_vinit",
+            "17": "layer_17_k32_vinit"
+        },
+        "POLITIC": {
+            "layers": [
+                "29",
+                "22",
+                "17",
+                "9"
+            ],
+            "29": "layer_29_k32_vinit",
+            "22": "layer_22_k32_vinit",
+            "17": "layer_17_k32_vinit",
+            "9": "layer_9_k20_vinit"
+        },
+        "MORAL": {
+            "layers": [
+                "9",
+                "22",
+                "17",
+                "29"
+            ],
+            "9": "layer_9_k29_vinit",
+            "22": "layer_22_k32_vinit",
+            "17": "layer_17_k32_vinit",
+            "29": "layer_29_k31_vinit"
+        }
+    },
+    "gemma-2-9b": {
+        "LOGIC": {
+            "layers": [
+                "19",
+                "38",
+                "31",
+                "26"
+            ],
+            "19": "layer_19_k32_vinit",
+            "38": "layer_38_k16_vinit",
+            "31": "layer_31_k23_vinit",
+            "26": "layer_26_k29_vinit"
+        },
+        "SENTIMENT": {
+            "layers": [
+                "19",
+                "31",
+                "38",
+                "26"
+            ],
+            "19": "layer_19_k32_vinit",
+            "31": "layer_31_k32_vinit",
+            "38": "layer_38_k32_vinit",
+            "26": "layer_26_k32_vinit"
+        },
+        "POLITIC": {
+            "layers": [
+                "38",
+                "31",
+                "19",
+                "26"
+            ],
+            "38": "layer_38_k32_vinit",
+            "31": "layer_31_k32_vopt_aggressive_global",
+            "19": "layer_19_k32_vopt_aggressive_global",
+            "26": "layer_26_k32_vinit"
+        },
+        "MORAL": {
+            "layers": [
+                "19",
+                "31",
+                "38",
+                "26"
+            ],
+            "19": "layer_19_k32_vinit",
+            "31": "layer_31_k32_vinit",
+            "38": "layer_38_k32_vinit",
+            "26": "layer_26_k32_vinit"
+        }
+    }
+}
