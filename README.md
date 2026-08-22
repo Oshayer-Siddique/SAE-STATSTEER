@@ -26,5 +26,5 @@ More information can be found at [neuronpedia.org](https://www.neuronpedia.org/)
 To select relevant features for forming the steering vector, we first filter features through six reliability conditions, then ranks the survivors by an unweighted Borda consensus over three statistics, an F-test, KSG mutual information, and Cohen's d, and finally combine the selected SAE decoder rows using Cohen's-d weights. 
 
 > We used Google TPUs for the generation of Sparse Autoencoders, and had to use JAX instead of Pytorch.
-> We installed Gemma-2-2b, Gemma-2-9b, and Gemma-3-4b and ran them on coommercially available GPUs during the evaluation phase of our experiment.
+> We installed Gemma-2-2b, Gemma-2-9b, and Gemma-3-4b and ran them on commercially available GPUs during the evaluation phase of our experiment.
 
